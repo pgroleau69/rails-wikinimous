@@ -1,5 +1,7 @@
 <h1>All articles</h1>
-<%= link_to "New", new_article_path %>
+<button class="favorite styled"
+        type="button"><%= link_to "New", new_article_path %>
+</button>
 
 <ul>
   <% @articles.each do |article| %>
